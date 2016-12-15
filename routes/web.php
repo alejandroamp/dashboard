@@ -12,5 +12,26 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
+
+Route::get('documents/', function () {
+    return view('documents');
+});
+
+Route::get('dashboard/', function () {
+    return view('dashboard');
+});
+
+/*Route::group(['prefix' => 'dashboard'], function(){
+
+    Route::get('/', [
+        'uses'  =>   'DashboardController@view',
+        'as'    =>   'dashboardView'
+    ]);
+    Route::get('documents/', [
+        'uses'  =>   'DocumentsController@view',
+        'as'    =>   'documentsView'
+    ]);
+
+});*/
