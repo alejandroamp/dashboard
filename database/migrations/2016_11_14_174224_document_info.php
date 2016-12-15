@@ -19,12 +19,12 @@ class DocumentInfo extends Migration
             $table->string('account_name');
             $table->string('business_name');
             $table->string('country');
-            $table->enum('segment',['LE','GLOBAL']);
+            $table->enum('segment',['LE','GLOBAL','EDU']);
             $table->string('entity_type');
-            $table->enum('b2b',['Yes','No']);
+            $table->enum('b2b',['YES','NO']);
             $table->string('account_manager');
             $table->enum('geo',['AP','EMEA','LAM','AG']);
-            $table->enum('theoldkey1',['Yes','No']);
+            $table->enum('theoldkey1',['YES','NO']);
             $table->string('theoldkey2')->default('FOCUS');
             $table->string('order_status')->default('Electronic');
             $table->timestamps();
