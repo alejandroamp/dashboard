@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
@@ -142,14 +141,5 @@ class DashboardController extends Controller
     public function destroy($id)
     {
         //
-=======
-use Illuminate\Http\Request;
-
-class DashboardController extends Controller
-{
-    public function view() {
-
-        return view('dashboard');
->>>>>>> origin/master
     }
 }
