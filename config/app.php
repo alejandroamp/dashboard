@@ -183,8 +183,11 @@ return [
 
         // Providers Personales...
         Collective\Html\HtmlServiceProvider::class,
+<<<<<<< HEAD
         Maatwebsite\Excel\ExcelServiceProvider::class,
         //Collective\Bus\BusServiceProvider::class,
+=======
+>>>>>>> origin/master
         // ...
 
     ],

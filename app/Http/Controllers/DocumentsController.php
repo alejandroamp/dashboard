@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class DocumentsController extends Controller
 {
+<<<<<<< HEAD
     /**
      * Display a listing of the resource.
      *
@@ -83,5 +84,10 @@ class DocumentsController extends Controller
     public function destroy($id)
     {
         //
+=======
+    public function view() {
+
+        return view('documents');
+>>>>>>> origin/master
     }
 }

@@ -11,6 +11,7 @@
 |
 */
 
+<<<<<<< HEAD
 /*Route::get('/', function () {
     return view('auth.login');
 });
@@ -20,6 +21,17 @@
 });
 
 Route::get('dashboard', function () {
+=======
+Route::get('/', function () {
+    return view('login');
+});
+
+Route::get('documents/', function () {
+    return view('documents');
+});
+
+Route::get('dashboard/', function () {
+>>>>>>> origin/master
     return view('dashboard');
 });
 
@@ -35,6 +47,7 @@ Route::get('dashboard', function () {
     ]);
 
 });*/
+<<<<<<< HEAD
 
 Auth::routes();
 
@@ -54,3 +67,5 @@ Route::group(['prefix' => 'menu'], function () {
 
 });
 Route::get('/getExport', 'ExcelController@getExport');
+=======
+>>>>>>> origin/master

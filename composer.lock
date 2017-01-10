@@ -4,8 +4,13 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "58c632aa2c3388065932401fc7ac6589",
     "content-hash": "96e8ddc77a06c906ca92646accd0e37e",
+=======
+    "hash": "971e60cb73023cd0bf08bb047f32f9f5",
+    "content-hash": "8d1ee923cfa656d9239d76dfcd7bcadf",
+>>>>>>> origin/master
     "packages": [
         {
             "name": "alt-three/bus",
@@ -620,6 +625,7 @@
             "time": "2016-11-30 14:58:38"
         },
         {
+<<<<<<< HEAD
             "name": "laravelcollective/bus",
             "version": "v5.3.0",
             "source": {
@@ -669,6 +675,8 @@
             "time": "2016-08-28 00:02:50"
         },
         {
+=======
+>>>>>>> origin/master
             "name": "laravelcollective/html",
             "version": "v5.3.0",
             "source": {
@@ -1567,6 +1575,7 @@
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
             "time": "2016-11-16 22:17:09"
+<<<<<<< HEAD
         },
         {
             "name": "symfony/css-selector",
@@ -1620,6 +1629,8 @@
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
             "time": "2016-11-03 08:04:31"
+=======
+>>>>>>> origin/master
         },
         {
             "name": "symfony/debug",
@@ -2339,6 +2350,7 @@
                 "dump"
             ],
             "time": "2016-11-03 08:04:31"
+<<<<<<< HEAD
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -2386,6 +2398,8 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2016-09-20 12:50:39"
+=======
+>>>>>>> origin/master
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3799,6 +3813,62 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-10-03 07:35:21"
+<<<<<<< HEAD
+=======
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v3.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "a37b3359566415a91cba55a2d95820b3fa1a9658"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/a37b3359566415a91cba55a2d95820b3fa1a9658",
+                "reference": "a37b3359566415a91cba55a2d95820b3fa1a9658",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-11-03 08:04:31"
+>>>>>>> origin/master
         },
         {
             "name": "symfony/dom-crawler",

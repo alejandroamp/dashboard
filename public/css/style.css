@@ -1,8 +1,12 @@
 
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+<<<<<<< HEAD
     .row.content {
         height: 1000px;
     }
+=======
+/*.row.content {height: 1500px}*/
+>>>>>>> origin/master
 
 /* Set gray background color and 100% height */
 .sidenav {
@@ -15,7 +19,10 @@ footer {
     background-color: #555;
     color: white;
     padding: 15px;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> origin/master
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -25,9 +32,13 @@ footer {
         padding: 15px;
     }
     .row.content {height: auto;}
+<<<<<<< HEAD
 }
 
     /* Form Style */
     #selectcountry {
         text-transform:uppercase;
     }
+=======
+}
+>>>>>>> origin/master
