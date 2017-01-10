@@ -39,6 +39,18 @@ Route::get('dashboard', function () {
 Auth::routes();
 
 Route::get('/','HomeController@index');
-Route::get('dashboard','DashboardController@view');
+/*
+ * Route::get('dashboard','DashboardController@view');
 Route::post('dashboard','DashboardController@create');
-Route::get('document','DocumentsController@view');
+Route::get('documents','DocumentsController@view');
+Route::get('index','DashboardController@index');
+Route::get('dashboardedit', 'DashboardController@edit');
+ */
+Route::group(['prefix' => 'menu'], function () {
+
+    // Route::resource('/', 'HomeController');
+    Route::resource('dashboard', 'DashboardController');
+    Route::resource('documents', 'DocumentsController');
+
+});
+Route::get('/getExport', 'ExcelController@getExport');

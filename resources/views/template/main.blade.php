@@ -42,12 +42,13 @@
                 {{ csrf_field() }}
             </form>
             <ul class="nav nav-pills nav-stacked">
-                <li><a href="{{url('dashboard')}}">Upload Data</a></li>
-                <li><a href="{{url('documents')}}">Files</a></li>
+                <li><a href="{{url('/')}}">Upload Data</a></li>
+                <li><a href="{{route('documents.index')}}">Files</a></li>
+                <li><a href="{{route('dashboard.index')}}">Data</a></li>
             </ul>
         </div>
 
-        <div class="col-sm-9">
+        <div class="col-sm-8">
             @yield('content')
         </div>
     </div>
@@ -57,6 +58,7 @@
     <p>Footer Text</p>
 </footer>
 <!-- Scripts -->
+@yield('scripts')
 <script src="/js/app.js"></script>
 </body>
 </html>
